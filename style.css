@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #3b5998;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav {
+    margin: 20px;
+    background-color: #3b5998;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #3b5998;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.foto-info{
+    display: flex;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #0000001a;
+}
+
+h2 {
+    color: #3b5998;
+}
+
+#foto img {
+    border-radius: 50%;
+}
+
+#informacion-personal p, #contacto p, #educacion p, #habilidades ol, #intereses ol {
+    font-size: 16px;
+}
+
+.contacto{
+    text-decoration: none;
+}
+
+#galeria-fotos {
+    padding: 20px;
+    background-color: #f0f0f0; 
+}
+
+
+.grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 16px; 
+    grid-auto-rows: auto;
+    justify-items: center; 
+}
+
+
+figure {
+    margin: 0;
+    text-align: center; 
+}
+
+
+img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+img:hover {
+    transform: scale(1.05); 
+}
+
+
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333; 
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+
+
+footer {
+    background-color: #3b5998;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
